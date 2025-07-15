@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MandatoryPacksData>
+    <Paths>
+        <!-- 
+            2016_02
+                Fixes to core systems
+            2016_05
+                Fixes to volumetric clouds
+                rendering.
+        -->
+        <Item>assets:\dlcPacks\hotfix_2016_02</Item>
+        <Item>assets:\dlcPacks\hotfix_2016_05</Item>
+    </Paths>
+</MandatoryPacksData>
