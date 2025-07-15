@@ -1,0 +1,42 @@
+//
+// Load these since they're most important!
+//
+
+// Core shaders
+aotx.fxc
+cloth.fxc
+cutout_fast.fxc
+cutout_fence.fxc
+cutout_hard.fxc
+cutout_misc.fxc
+decal.fxc
+default.fxc
+hdao.fxc
+normal.fxc
+rough.fxc
+rtgi.fxc
+ssao.fxc
+
+// Clouds
+clouds_animate.fxc
+clouds_animatesoft.fxc
+clouds_density.fxc
+clouds_fog.fxc
+clouds_ray.fxc
+
+// Glass
+glass_breakable.fxc
+glass_crack.fxc
+glass_displacement.fxc
+glass_env.fxc
+glass_reflect.fxc
+glass_spec.fxc
+glass_trace.fxc
+glass.fxc
+mirror_crack.fxc
+mirror_decal.fxc
+mirror.fxc
+
+// Water
+water_foam.fxc
+water.fxc
