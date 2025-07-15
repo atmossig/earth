@@ -3,6 +3,25 @@
 // description:	contains entry function
 //
 
+// engine
+#include "diag/errorcode.h"
+#include "system/param.h"
+#include "system/assert.h"
+#include "input/keyboard.h"
+#include "input/keys.h"
+#include "system/main.h"
+#include "string/string.h"
+#include "audiohardware/driver.h"
+#include "grcore/device.h"
+#include "system/systeminfo.h"
+
+#if EARTH_PC
+#pragma comment (lib,"Dwmapi.lib")
+#endif // EARTH_PC
+
+// game
+#include "app.h"
+
 #if __64BIT
 	// Pool heap size.
 	#define POOL_HEAP_SIZE		(30*1024)
