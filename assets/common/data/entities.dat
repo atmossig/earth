@@ -1,0 +1,20 @@
+### CORE ###
+Camera                      # Camera entity core
+LevelInfo                   # A point that stores the level info in a level
+LevelPoint                  # A point in which where a level is supposed to load
+ScriptEntity                # Entity that spawns / control script
+
+### PROP ###
+PropClothFragment
+PropFragment
+PropGeneric
+PropPhysics
+
+### PED ###
+PedNormal
+PedScripted
+PedPlayer
+
+### NETWORK ###
+PedNetPlayer
+PedPlayerNet
