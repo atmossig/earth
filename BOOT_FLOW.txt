@@ -1,0 +1,31 @@
+Exec start
+    Prologue
+        Get build info  (debug, release, final)
+        Get system info (platform, architecture, etc)
+        Get game info   (game path, paths, mounts)
+    Epilogue
+        Start main game startup
+
+Game startup
+    Initial/Core
+        Check what scripts we need to load
+        Start those scripts
+    AfterCore
+        Begin title, then Assets/World
+    Assets/World
+        Check what we need to load
+        Start loading those assets
+        Boot into game
+
+Game loop
+    Render hud
+    Render scene
+    Render props
+
+    Update scripts
+    Update input
+    Update stats
+    Update player
+    Update ai
+
+    etc, etc.
