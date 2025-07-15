@@ -1,2 +1,2 @@
 # earth
-The earth repo! (for funnies)
+Earth source code.
