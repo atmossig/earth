@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Skydome is still needed but this is deprecated
+    since the graphics update in 2016 where we added
+    volumetric clouds.
+-->
+<CloudHatManager>
+    <mCloudHatFrags>
+        <Item>
+            <mPosition x="0.000000" y="0.000000" z="25.000000" />
+            <mRotation x="0.000000" y="0.000000" z="0.000000" />
+            <mScale x="1800.000000" y="1800.000000" z="1500.000000" />
+
+            <mName>Default</mName>
+            <mLayers>
+                <Item>
+                    <!-- common/models/ -->
+                    <mFileName>sky_horzionring</mFileName>
+
+                    <mCostFactor value="0.000000" />
+                    <mRotationScale value="0.000000" />
+
+                    <!-- Transition -->
+                    <mTransitionInTimePercent value="0.400000" />
+                    <mTransitionOutTimePercent value="0.400000" />
+                    <mTransitionInDelayPercent value="0.000000" />
+                    <mTransitionOutDelayPercent value="0.000000" />
+
+                    <!-- Height when we can see the horizon -->
+                    <mHeightTrigger value="500.000000" />
+
+                    <!-- Height when it starts to fade out -->
+                    <mHeightFadeRange value="300.000000" />
+                </Item>
+                <Item>
+                    <mFileName>sky_base</mFileName>
+                    <mCostFactor value="0.100000" />
+                    <mRotationScale value="0.100000" />
+                    <mTransitionInTimePercent value="0.300000" />
+                    <mTransitionOutTimePercent value="0.300000" />
+                    <mTransitionInDelayPercent value="0.600000" />
+                    <mTransitionOutDelayPercent value="0.600000" />
+                    <mHeightTigger value="0.000000" />
+                    <mHeightFadeRange value="0.000000" />
+                </Item>
+            </mLayers>
+        </Item>
+    </mCloudHatFrags>
+</CloudHatManager>
